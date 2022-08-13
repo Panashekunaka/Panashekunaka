@@ -31,4 +31,9 @@ N: Possible cause: repository is under maintenance or down (wrong sources.list U
 E: The repository 'https://dl.bintray.com/grimler/science-packages-24 science Release' does not have a Release file.
 N: Metadata integrity can't be verified, repository is disabled now.
 N: Possible cause: repository is under maintenance or down (wrong sources.list URL?).
-$
+$2
+$ pkg install git -y
+Checking availability of current mirror: ok
+Reading package lists... Done
+Building dependency tree... Done
+E: Unable to locate package git
