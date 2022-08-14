@@ -1,0 +1,23 @@
+$ pkg install nmh, after running pkg in unstable-repo
+Checking availability of current mirror: ok
+Get:1 https://grimler.se/termux-packages-24 stable InRelease [16.8 kB]
+Ign:2 https://dl.bintray.com/grimler/game-packages-24 games InRelease
+Ign:3 https://dl.bintray.com/grimler/science-packages-24 science InRelease
+Err:4 https://dl.bintray.com/grimler/game-packages-24 games Release
+  502  Bad Gateway
+Err:5 https://dl.bintray.com/grimler/science-packages-24 science Release
+  502  Bad Gateway
+Err:1 https://grimler.se/termux-packages-24 stable InRelease
+  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY B0076E490B71616B
+Reading package lists... Done
+E: The repository 'https://dl.bintray.com/grimler/game-packages-24 games Release' does not have a Release file.
+N: Metadata integrity can't be verified, repository is disabled now.
+N: Possible cause: repository is under maintenance or down (wrong sources.list URL?).
+E: The repository 'https://dl.bintray.com/grimler/science-packages-24 science Release' does not have a Release file.
+N: Metadata integrity can't be verified, repository is disabled now.
+N: Possible cause: repository is under maintenance or down (wrong sources.list URL?).
+W: GPG error: https://grimler.se/termux-packages-24 stable InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY B0076E490B71616B
+E: The repository 'https://grimler.se/termux-packages-24 stable InRelease' is not signed.
+N: Metadata integrity can't be verified, repository is disabled now.
+N: Possible cause: repository is under maintenance or down (wrong sources.list URL?).
+$
